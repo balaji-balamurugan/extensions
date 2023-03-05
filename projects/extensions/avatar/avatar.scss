@@ -1,0 +1,11 @@
+:host {
+  display: inline-block;
+  cursor: pointer;
+
+  .avatar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

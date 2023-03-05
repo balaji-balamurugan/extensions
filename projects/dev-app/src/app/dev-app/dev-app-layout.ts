@@ -22,6 +22,7 @@ export class DevAppLayout {
   strongFocus = false;
   navItems = [
     { name: 'Alert', route: '/alert' },
+    { name: 'Avatar', route: '/avatar' },
     { name: 'Button', route: '/button' },
     { name: 'Color Picker', route: '/colorpicker' },
     { name: 'Checkbox Group', route: '/checkbox-group' },

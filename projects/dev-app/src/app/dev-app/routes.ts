@@ -9,6 +9,10 @@ export const DEV_APP_ROUTES: Routes = [
     loadChildren: () => import('../alert/alert-demo.module').then(m => m.AlertDemoModule),
   },
   {
+    path: 'avatar',
+    loadChildren: () => import('../avatar/avatar-demo.module').then(m => m.AvatarDemoModule),
+  },
+  {
     path: 'button',
     loadChildren: () => import('../button/button-demo.module').then(m => m.ButtonDemoModule),
   },
